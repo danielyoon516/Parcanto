@@ -31,7 +31,13 @@
     padding: 0 10px;
     border-bottom: 2px solid #500000;
   }
-  
+  .hero p{
+    background-color: #500000;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    color: #ffd0b5;
+  }
   .topic {
     min-height: 100vh;
     display: flex;
@@ -51,11 +57,13 @@
     z-index: 2;
     max-width: 400px;
     text-align: right;
-  }
+    }
   
   .topic.left {
     display: flex;
     flex-direction: row-reverse; /* Moves the image to the right */
+    color: rgb(149, 98, 98);
+    
 
   }
   
