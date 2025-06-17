@@ -20,7 +20,11 @@
   .methodology h2 {
     font-size: 2rem;
     margin-bottom: 40px;
+    margin-left: 500px;
+    margin-right: 500px;
     color: #444;
+    background-color: #d49a91 ;
+    border-radius: 7px;
   }
   
   .method-grid {
@@ -57,14 +61,18 @@
     background-color: #ffd2b8;
     padding: 60px 20px;
     max-width: 2000px;
-    margin: 0 auto;
+    margin:  auto ;
     text-align: center;
   }
   
   .correlation h2 {
     font-size: 2rem;
     margin-bottom: 25px;
-    color: #5a2b2b;
+    color: #ffd2b8;
+    background-color: #5a2b2b;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 7px;
   }
   
   .correlation p {
@@ -72,5 +80,8 @@
     color: #444;
     line-height: 1.6;
     margin-bottom: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
   }
   

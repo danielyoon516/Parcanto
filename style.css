@@ -31,6 +31,9 @@
     padding: 0 10px;
     border-bottom: 2px solid #500000;
   }
+  .hero h1 {
+    margin-bottom: 20px;
+  }
   .hero p{
     background-color: #500000;
     padding: 2px 6px;
@@ -148,10 +151,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ffd0b5;
+    background-color: #500000;
     padding: 15px 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
     text-align: center;
   }
   
@@ -167,7 +170,7 @@
   }
   
   .navbar a {
-    color: #6c2b2b;
+    color: #ffd0b5 ;
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;

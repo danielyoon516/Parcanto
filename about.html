@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About – Parcanto</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="about.css" />
 </head>
@@ -21,22 +22,24 @@
     </ul>
   </nav>
 
-  <section class="about-hero">
-    <h1>Parcanto</h1>
-    <p>Need to add text </p>
+  <section class="about-hero" data-aos = "fade-up">
+    <h1 data-aos = "fade-up"> Parcanto</h1>
+    <p data-aos = "fade-up">Need to add text </p>
   </section>
 
-  <section class="about-info">
+  <section class="about-info" data-aos = "fade-up">
     <h2>About Parkinson’s</h2>
-    <p>
+
+    <img src="images/donation.jpg" class = "main-image" data-aos="fade-up" alt="Parkinson's Awareness Image">
+    <p data-aos="fade-up">
         Parkinson’s disease (PD) is a progressive neurodegenerative disorder characterised by the degeneration of dopamine-producing neurons in the substantia nigra, leading to dopamine deficiency that disrupts neuronal signalling and manifests in both motor and non-motor symptoms [1]. While PD is widely recognised for motor features—bradykinesia, resting tremor, rigidity, and postural instability—it also significantly affects speech and communication. Early in the disease course, individuals often experience disrupted speech rhythm, reduced vocal volume (hypophonia), and impaired articulation, which can erode their sense of identity and contribute to social withdrawal before prominent motor symptoms appear [2][3]
     </p>
   </section>
 
   <section class="team">
     <h2>Meet the Team</h2>
-    <div class="team-grid">
-      <div class="team-member">
+    <div class="team-grid" >
+      <div class="team-member" >
         <img src="images/member1.jpg" alt="Team Member 1">
         <h3>need to add name</h3>
         <p>Founder & Art Therapist</p>
@@ -49,5 +52,9 @@
       <!-- Add more team members here -->
     </div>
   </section>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Music Therapy – Parcanto</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="music.css" />
 </head>
@@ -19,27 +20,28 @@
     </ul>
   </nav>
 
-  <section class="music-hero">
-    <h1>Music Therapy</h1>
+  <section class="music-hero" >
+    <h1 data-aos="fade-up">Music Therapy</h1>
   </section>
 
   <section class="methodology">
-    <h2>Methodology</h2>
+    <h2 data-aos="fade-up">Methodology</h2>
     <div class="method-grid">
-      <div class="method-box">
+
+      <div class="method-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
         <h3>Diaphragmatic Breathing
         </h3>
         <p>Participants were guided to focus on present bodily sensations by closing their eyes and breathing deeply in and out to the phrase “I am here now.”</p>
       </div>
-      <div class="method-box">
+      <div class="method-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
         <h3>Vocal Training</h3>
         <p>Repetition of vowels such as “ah,” “ee,” and “oo” encouraged participants to express and release emotions through sound.</p>
       </div>
-      <div class="method-box">
+      <div class="method-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
         <h3>Singing Familiar Songs</h3>
         <p>Participants sang familiar tunes—including Korean popular songs, children’s songs, and hymns—using lyrics as a means of reclaiming aspects of their identity.</p>
       </div>
-      <div class="method-box">
+      <div class="method-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="550">
         <h3>Rhythmic Movement</h3>
         <p>Simple movements such as clapping and foot-tapping performed to music helped participants gradually overcome initial awkwardness and experience a sense of unity </p>
       </div>
@@ -54,5 +56,10 @@
       Contemporary research supports its ability to stimulate neuroplasticity and support cognitive, emotional, and social functioning [18]. It is frequently used in conjunction with psychotherapy and other expressive therapies.
     </p>
   </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
