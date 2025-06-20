@@ -1,5 +1,5 @@
 body {
-    background-color: #fef6eb;
+    background-color: #ffe9e5;
     font-family: 'Open Sans', sans-serif;
     color: #4a3f3f;
     text-align: center;
@@ -11,6 +11,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
     margin-top: 70px;
+    color: #5b3d3d; 
   }
   
   .intro {
@@ -38,15 +39,80 @@ body {
     width: 40%;
     max-width: 1000px;
     margin: 40px auto;
-    display: block;
     border-radius: 8px;
+    display: flex;
+    color: rgb(149, 98, 98);
+    display: block;        
+    margin-left: 10px;      
+
+    
   }
   
-  .body-text {
-    max-width: 800px;
-    margin: 20px auto 90px;
+  .box {
+    max-width: 700px;
+    margin: 40px auto 10px ;
+    display: block;
+    margin-right: 10px;
+
+    position: relative;
     font-size: 1rem;
     line-height: 1.6;
-    color: #5a4c4c;
+    color: rgb(0, 0, 0.1);
+    background-color: #6d5757;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+
+    
+
+
   }
   
+
+
+  .main-body{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+  }
+
+  .secondary-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse; /* This switches image to the right */
+    gap: 40px; /* optional: adds spacing between image and text */
+    padding: 40px;
+  }
+  
+
+  .second-image {
+    width: 45%;
+    max-width: 500px;
+    border-radius: 6px;
+    border-color:#5b3d3d;
+    border:solid;
+  }
+  
+  .second-text {
+    width: 50%;
+  }
+  
+  .box2{
+    max-width: 700px;
+    margin: 40px auto 10px ;
+    display: block;
+    margin-right: 10px;
+
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgb(0, 0, 0.1);
+    background-color: #d6aeae;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+
+    
+  }

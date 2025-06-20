@@ -74,7 +74,7 @@
     text-align: left; 
   }
   .topic.left .topic-image {
-    margin-right: 20px; /* Space between image and text for left-aligned images */
+    margin-right: 20px; 
   }
   
   .topic.left h2 {
@@ -102,8 +102,8 @@
     height: auto;
     object-fit: cover;
     margin-left: 0;
-    border-radius: 15px; /* Rounded corners */
-    border: 5px solid #ffffff; /* Border color and thickness */
+    border-radius: 15px; 
+    border: 5px solid #ffffff; 
   }
   
 
